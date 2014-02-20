@@ -10,6 +10,22 @@
     <property name="name" nameId="tpck.1169194664001" value="CellModel_Checkbox" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="checkbox{&lt;{propertyDeclaration}&gt;}" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389658414" resolveInfo="CellModel_Property" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1160488491229" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconPathTrue" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2320610800095784425" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconPathFalse" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2320610800103694400" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconScaleTrue" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2320610800103694404" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconScaleFalse" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
   </root>
 </model>
 
