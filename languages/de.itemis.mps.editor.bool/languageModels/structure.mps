@@ -27,5 +27,18 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7122083600695857782" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="CellModel_BooleanText" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="bool{&lt;{propertyDeclaration}&gt;}" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389658414" resolveInfo="CellModel_Property" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7122083600696906118" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="trueText" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7122083600696909496" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="falseText" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
 </model>
 
