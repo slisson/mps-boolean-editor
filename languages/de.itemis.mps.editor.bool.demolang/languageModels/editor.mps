@@ -120,6 +120,7 @@
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="wfif.CellModel_BooleanText" typeId="wfif.7122083600695857782" id="8467078999650058761" nodeInfo="ng">
             <property name="trueText" nameId="wfif.7122083600696906118" value="on" />
+            <property name="noTargetText" nameId="tpc2.1139852716018" value="_" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="81p.4900677560560047028" resolveInfo="testproperty" />
           </node>
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="8467078999650058762" nodeInfo="nn" />
@@ -134,6 +135,7 @@
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="wfif.CellModel_BooleanText" typeId="wfif.7122083600695857782" id="8467078999650080046" nodeInfo="ng">
             <property name="falseText" nameId="wfif.7122083600696909496" value="off" />
+            <property name="noTargetText" nameId="tpc2.1139852716018" value="_" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="81p.4900677560560047028" resolveInfo="testproperty" />
           </node>
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="8467078999650080047" nodeInfo="nn" />

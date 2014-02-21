@@ -366,6 +366,172 @@
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="7122083600697046201" nodeInfo="nn" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1546395981771398098" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1080757525338" nodeInfo="nn">
+        <property name="vertical" nameId="tpc2.1073389446425" value="true" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="1214480562374" nodeInfo="ng">
+          <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpc5.1214476568032" resolveInfo="_CellModel_Common" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1214480534074" nodeInfo="nn">
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214480540278" nodeInfo="nn" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="1223037443866" nodeInfo="nn">
+            <property name="style" nameId="tpc2.1186403771423" value="BOLD" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1080757525339" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="Property cell:" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpc5.1214478266312" resolveInfo="header" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1214477494841" nodeInfo="nn">
+          <property name="vertical" nameId="tpc2.1073389446425" value="true" />
+          <property name="gridLayout" nameId="tpc2.1073389446426" value="true" />
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1080757525341" nodeInfo="nn">
+            <property name="vertical" nameId="tpc2.1073389446425" value="false" />
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1080757525342" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="property" />
+              <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpc5.1214480913160" resolveInfo="property" />
+            </node>
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="1140223255594" nodeInfo="ng">
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;no property&gt;" />
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpc2.1073389964684" />
+              <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="1140223255595" nodeInfo="ng">
+                <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1140223255596" nodeInfo="ng">
+                  <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+                  <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;no name&gt;" />
+                  <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                  <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214314939882" nodeInfo="nn">
+                    <property name="flag" nameId="tpc2.1186414551515" value="true" />
+                  </node>
+                </node>
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214314941907" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="true" />
+              </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310996930" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214314941310" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239878593969" nodeInfo="nn" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1082641826609" nodeInfo="nn">
+            <property name="vertical" nameId="tpc2.1073389446425" value="false" />
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1082641826610" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="text*" />
+              <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpc5.1214480913160" resolveInfo="property" />
+            </node>
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1082641826611" nodeInfo="ng">
+              <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;none&gt;" />
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpc2.1139852716018" resolveInfo="noTargetText" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214314941328" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="true" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="1214407442048" nodeInfo="nn">
+                <property name="color" nameId="tpc2.1186403713874" value="yellow" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorSelectedStyleClassItem" typeId="tpc2.1214406466686" id="1214407442181" nodeInfo="nn">
+                <property name="color" nameId="tpc2.1186403713874" value="cyan" />
+              </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310996471" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214314939681" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+            <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="1214930378301" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1214930378302" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1214930403386" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.NotExpression" typeId="tpee.1081516740877" id="1214930403387" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1214930404922" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="1214930404092" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1214930407003" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="tpc2.1214560368769" resolveInfo="emptyNoTargetText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239878593853" nodeInfo="nn" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1214560560907" nodeInfo="nn">
+            <property name="vertical" nameId="tpc2.1073389446425" value="false" />
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1214560560908" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="empty text*" />
+              <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpc5.1214480913160" resolveInfo="property" />
+            </node>
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1214560560909" nodeInfo="ng">
+              <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;none&gt;" />
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpc2.1214560368769" resolveInfo="emptyNoTargetText" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214560560910" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="true" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="1214560560911" nodeInfo="nn">
+                <property name="color" nameId="tpc2.1186403713874" value="yellow" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorSelectedStyleClassItem" typeId="tpc2.1214406466686" id="1214560560912" nodeInfo="nn">
+                <property name="color" nameId="tpc2.1186403713874" value="cyan" />
+              </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214560560913" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214560560914" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+            <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="1214560560915" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1214560560916" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1214560560917" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1214560560918" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1214560560919" nodeInfo="nn" />
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1214560560920" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="1214560560921" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1214560560922" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="tpc2.1139852716018" resolveInfo="noTargetText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239878594121" nodeInfo="nn" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1214477517063" nodeInfo="nn">
+            <property name="vertical" nameId="tpc2.1073389446425" value="false" />
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1214477517064" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="read only" />
+              <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpc5.1214480913160" resolveInfo="property" />
+            </node>
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1214477517067" nodeInfo="ng">
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpc2.1140017977771" resolveInfo="readOnly" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214477517068" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="true" />
+              </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214477517069" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214477517070" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239878593861" nodeInfo="nn" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="1214480839753" nodeInfo="nn">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_VerticalGrid" typeId="tpc2.1239814640496" id="1239878593898" nodeInfo="nn" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310995552" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="1239878593687" nodeInfo="nn" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1546395981771395976" nodeInfo="nn" />
     </node>
   </root>
 </model>
