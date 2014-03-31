@@ -164,5 +164,10 @@
       </node>
     </node>
   </root>
+  <root type="wfif.CheckboxDefaultIcons" typeId="wfif.5474165673714391176" id="5474165673716141826" nodeInfo="ng">
+    <property name="iconPathFalse" nameId="wfif.5474165673714469011" value="${module}/icons/dialog-close.png" />
+    <property name="iconScaleTrue" nameId="wfif.5474165673714750964" value="1.1" />
+    <property name="iconScaleFalse" nameId="wfif.5474165673714750965" value="1.2" />
+  </root>
 </model>
 

@@ -40,5 +40,26 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5474165673714391176" nodeInfo="ig">
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="name" nameId="tpck.1169194664001" value="CheckboxDefaultIcons" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5474165673714469010" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconPathTrue" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5474165673714469011" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconPathFalse" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5474165673714750964" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconScaleTrue" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5474165673714750965" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="iconScaleFalse" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+  </root>
 </model>
 
