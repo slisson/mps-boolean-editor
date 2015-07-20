@@ -142,6 +142,7 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -1006,18 +1007,21 @@
           </node>
           <node concept="3clFbS" id="55my_QKZNgh" role="3clF47" />
         </node>
-        <node concept="3clFb_" id="55my_QKZNgi" role="jymVt">
-          <property role="IEkAT" value="false" />
+        <node concept="3clFb_" id="2n6u7U4Mpo8" role="jymVt">
           <property role="1EzhhJ" value="false" />
-          <property role="TrG5h" value="getRoleAttribute" />
+          <property role="TrG5h" value="getRoleAttributes" />
           <property role="DiZV1" value="false" />
-          <node concept="3Tm1VV" id="55my_QKZNgj" role="1B3o_S" />
-          <node concept="3uibUv" id="55my_QKZNgl" role="3clF45">
-            <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+          <property role="IEkAT" value="false" />
+          <node concept="3Tm1VV" id="2n6u7U4Mpo9" role="1B3o_S" />
+          <node concept="3uibUv" id="2n6u7U4Mpob" role="3clF45">
+            <ref role="3uigEE" to="e2lb:~Iterable" resolve="Iterable" />
+            <node concept="3uibUv" id="2n6u7U4Mpoc" role="11_B2D">
+              <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+            </node>
           </node>
-          <node concept="3clFbS" id="55my_QKZNgm" role="3clF47">
-            <node concept="3clFbF" id="55my_QKZNgo" role="3cqZAp">
-              <node concept="10Nm6u" id="55my_QKZNgn" role="3clFbG" />
+          <node concept="3clFbS" id="2n6u7U4Mpod" role="3clF47">
+            <node concept="3clFbF" id="2n6u7U4Mpof" role="3cqZAp">
+              <node concept="10Nm6u" id="2n6u7U4Mpoe" role="3clFbG" />
             </node>
           </node>
         </node>
@@ -1511,7 +1515,7 @@
                   <ref role="3cqZAo" node="6bmIkNC6OcO" resolve="provider" />
                 </node>
                 <node concept="liA8E" id="6bmIkNC6Ofp" role="2OqNvi">
-                  <ref role="37wK5l" to="hdil:6bmIkNC7z4c" resolve="getRoleAttribute" />
+                  <ref role="37wK5l" to="qv3m:~CellProviderWithRole.getRoleAttribute():org.jetbrains.mps.openapi.model.SNode" resolve="getRoleAttribute" />
                 </node>
               </node>
             </node>
@@ -1681,21 +1685,6 @@
           </node>
           <node concept="3clFbS" id="6bmIkNC6Ogq" role="3clF47" />
         </node>
-        <node concept="3clFb_" id="6bmIkNC6Ogr" role="jymVt">
-          <property role="IEkAT" value="false" />
-          <property role="1EzhhJ" value="false" />
-          <property role="TrG5h" value="getRoleAttribute" />
-          <property role="DiZV1" value="false" />
-          <node concept="3Tm1VV" id="6bmIkNC6Ogs" role="1B3o_S" />
-          <node concept="3uibUv" id="6bmIkNC6Ogt" role="3clF45">
-            <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
-          </node>
-          <node concept="3clFbS" id="6bmIkNC6Ogu" role="3clF47">
-            <node concept="3clFbF" id="6bmIkNC6Ogv" role="3cqZAp">
-              <node concept="10Nm6u" id="6bmIkNC6Ogw" role="3clFbG" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFb_" id="6bmIkNC6Ogx" role="jymVt">
           <property role="IEkAT" value="false" />
           <property role="1EzhhJ" value="false" />
@@ -1723,6 +1712,24 @@
           <node concept="3clFbS" id="6bmIkNC6OgE" role="3clF47">
             <node concept="3clFbF" id="6bmIkNC6OgF" role="3cqZAp">
               <node concept="10Nm6u" id="6bmIkNC6OgG" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFb_" id="2n6u7U4MoiT" role="jymVt">
+          <property role="1EzhhJ" value="false" />
+          <property role="TrG5h" value="getRoleAttributes" />
+          <property role="DiZV1" value="false" />
+          <property role="IEkAT" value="false" />
+          <node concept="3Tm1VV" id="2n6u7U4MoiU" role="1B3o_S" />
+          <node concept="3uibUv" id="2n6u7U4MoiW" role="3clF45">
+            <ref role="3uigEE" to="e2lb:~Iterable" resolve="Iterable" />
+            <node concept="3uibUv" id="2n6u7U4MoiX" role="11_B2D">
+              <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2n6u7U4MoiY" role="3clF47">
+            <node concept="3clFbF" id="2n6u7U4Moj0" role="3cqZAp">
+              <node concept="10Nm6u" id="2n6u7U4MoiZ" role="3clFbG" />
             </node>
           </node>
         </node>
